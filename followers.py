@@ -11,7 +11,7 @@ for i in range(math.ceil(follower_count / 200)):
 	print("------------")
 	url = "https://tiktok.p.rapidapi.com/live/user/follower/list"
 
-	querystring = {"username":"TODO: your username here","max_cursor":max_cursors[i],"limit":"200"}
+	querystring = {"username":"TODO: celebritypage23","max_cursor":max_cursors[i],"limit":"200"}
 
 	headers = {
 		# use the following link to sign up for an account + get your rapidapi key
